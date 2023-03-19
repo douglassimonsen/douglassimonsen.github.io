@@ -61,8 +61,8 @@ const GitProfile = ({ config }) => {
 
         let profileData = {
           avatar: data.avatar_url,
-          name: data.name ? data.name : '',
-          bio: data.bio ? data.bio : '',
+          name: "Matthew Hamilton",
+          bio: "Passionate about helping to solve the problems of the people around me",
           location: data.location ? data.location : '',
           company: data.company ? data.company : '',
         };
@@ -197,12 +197,6 @@ const GitProfile = ({ config }) => {
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
-                      <Project
-                        repo={repo}
-                        loading={loading}
-                        github={sanitizedConfig.github}
-                        googleAnalytics={sanitizedConfig.googleAnalytics}
-                      />
                       <ExternalProject
                         loading={loading}
                         externalProjects={sanitizedConfig.externalProjects}
