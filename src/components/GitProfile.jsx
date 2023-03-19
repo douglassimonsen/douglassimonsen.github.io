@@ -62,7 +62,7 @@ const GitProfile = ({ config }) => {
         let profileData = {
           avatar: data.avatar_url,
           name: "Matthew Hamilton",
-          bio: "Passionate about helping to solve the problems of the people around me",
+          bio: "Passionate about collaborating to solve the problems of the people around me",
           location: data.location ? data.location : '',
           company: data.company ? data.company : '',
         };
