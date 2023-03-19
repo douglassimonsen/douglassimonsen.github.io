@@ -120,7 +120,7 @@ const config = {
     {
       title: 'Bus Tracker',
       description:
-        'Immplementation of Marey\'s String Chart using bus data',
+        'Implementation of Marey\'s String Chart using bus data',
       imageUrl: '/src/assets/bus.png',
       link: 'https://github.com/douglassimonsen/cta-tracker',
     },
