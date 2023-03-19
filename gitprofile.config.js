@@ -111,46 +111,46 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Redshift Uploader',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Utility to simplify copy-into commands for Redshift. Handles S3, table generation, etc.',
+      imageUrl: '/src/assets/uploader.png',
+      link: 'https://github.com/douglassimonsen/redshift_upload',
     },
     {
-      title: 'Project Name',
+      title: 'Bus Tracker',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Immplementation of Marey\'s String Chart using bus data',
+      imageUrl: '/src/assets/bus.png',
+      link: 'https://github.com/douglassimonsen/cta-tracker',
     },
     {
-      title: 'Project Name',
+      title: 'Outlook Emailer',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Wrapper around exchangelib to provide a simple interface for sending emails',
+      imageUrl: '/src/assets/email.png',
+      link: 'https://github.com/douglassimonsen/outlook_emailer',
     },
     {
-      title: 'Project Name',
+      title: 'Excel to HTML',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Converts Excel sheets/ranges to HTML using CSS1, allowing the results to be embedded in email bodies',
+      imageUrl: '/src/assets/excel.png',
+      link: 'https://github.com/douglassimonsen/excel_to_html',
     },
     {
-      title: 'Project Name',
+      title: 'Reverse Polish Notation Parser',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Toy implementation of an RPN calculator using Lark for my mom',
+      imageUrl: '/src/assets/rpn.png',
+      link: 'https://github.com/douglassimonsen/reverse_polish_notation',
     },
     {
-      title: 'Project Name',
+      title: 'Interruption Counter',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Vue app for counting and recording interruptions in a meeting. Now with a scoreboard!',
+      imageUrl: '/src/assets/interruption.png',
+      link: 'https://github.com/douglassimonsen/interruption_counter',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
